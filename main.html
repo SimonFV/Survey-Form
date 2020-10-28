@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+</script>
+
+<head>
+    <title>Survey Form</title>
+</head>
+
+
+<body>
+    <main>
+        <div id="presentation">
+            <h1 id="title">
+                Survey Form
+            </h1>
+            <p id="description">
+                This is a survey form use to gather basic information.
+            </p>
+        </div>
+        <hr>
+        <form id="survey-form" action="#">
+            <label id="name-label">
+                <p>Enter your name</p>
+                <input id="name" type="text" placeholder="Name" required>
+            </label>
+            <label id="email-label">
+                <p>Enter an E-mail</p>
+                <input id="email" type="email" placeholder="example@mail.com" required>
+            </label>
+            <label id="number-label">
+                <p>Enter a number between 0 and 150 <em>(optional)</em></p>
+                <input id="number" type="number" max="150" min="0" placeholder="0">
+            </label>
+            <label id="dropdown-label">
+                <p>Select your current state <em>(optional)</em></p>
+                <select id="dropdown">
+                    <option value="None" selected>None</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+            </label>
+            <label id="radio-label">
+                <p>Select velocity <em>(optional)</em></p>
+                <input type="radio" name="velocity" value="fast"> Fast<br>
+                <input type="radio" name="velocity" value="normal" checked> Normal<br>
+                <input type="radio" name="velocity" value="slow"> Slow
+            </label>
+            <label id="checkbox-label">
+                <p>Select items <em>(optional)</em></p>
+                <input type="checkbox" name="items" value="car"> Car<br>
+                <input type="checkbox" name="items" value="book"> Book<br>
+                <input type="checkbox" name="items" value="table"> Table
+            </label>
+            <label id="comment-label">
+                <p>Additional comments <em>(optional)</em></p>
+                <textarea id="comment" rows="5" placeholder="Comment..."></textarea>
+            </label>
+            <br><br>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>

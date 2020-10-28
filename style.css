@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(-30deg, #802070, #10BBBB);
+    background-attachment: fixed;
+}
+
+main {
+    background-color: rgba(36, 28, 7, 0.726);
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.342);
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-family: "Comic Sans MS";
+    color: rgb(255, 214, 138);
+}
+
+@media (max-width: 700px) {
+    main {
+      width: 100%;
+    }
+  }
+
+#presentation {
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+#survey-form {
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+}
+
+input, select, textarea, button {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+textarea {
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    border: 2px solid rgb(255, 214, 138);
+    background-color: rgba(0, 0, 0, 0.342);
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: inherit;
+}
+
+button:hover {
+    background-color: rgba(68, 55, 10, 0.342);
+}
+
+hr {
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(255, 214, 138);
+}
